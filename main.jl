@@ -1,7 +1,7 @@
-using Metis
-using LightGraphs
-using GraphPlot
-using Colors
+# Decomente a linha abaixo para instalar os pacotes
+#using Pkg; Pkg.add(["Metis","LightGraphs","GraphPlot", "Colors"])
+
+using Metis, LightGraphs, GraphPlot, Colors
 
 # Cria um grafo
 g = LightGraphs.smallgraph(:tutte)
